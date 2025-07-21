@@ -21,26 +21,30 @@ This project enhances rider safety by integrating advanced sensors and communica
 
 ![System Block Diagram](images/block-diagram.png)
 
-## Usage
-- Wear the helmet properly to enable all safety features.
-- The system will monitor alcohol levels and disable ignition if alcohol is detected.
-- In case of an accident, emergency calls and alerts will be triggered automatically.
+## Project Timeline
 
-## 14-Week Project Timeline
+### Weeks 1–2: Planning and Hardware Preparation
+- Requirement analysis and literature review to understand existing solutions and finalize system objectives.  
+- Research, select, and order all necessary hardware modules (ESP32, alcohol sensor, crash sensor, SIM800L GSM, GPS module, etc.).
 
-| Week | Tasks                                                                                   |
-|-------|-----------------------------------------------------------------------------------------|
-| 1     | Requirement analysis, literature review, and finalizing components                      |
-| 2     | Research and order hardware modules (ESP32, sensors, SIM800L, GPS, etc.)                |
-| 3     | Initial setup of microcontroller and sensors; prototype alcohol sensor integration     |
-| 4     | Helmet wearing detection implementation and testing                                    |
-| 5     | Crash detection sensor setup and data acquisition                                      |
-| 6     | GPS module integration and location tracking testing                                  |
-| 7     | Develop communication between ESP32 and mobile app via Bluetooth                       |
-| 8     | Mobile app development: receive GPS and send hospital contact                          |
-| 9     | SIM800L GSM module integration for automatic calls and SMS                            |
-| 10    | Implement vehicle ignition control logic (stop on alcohol detection)                   |
-| 11    | System integration: combine sensors, communication, and control logic                  |
-| 12    | Initial system testing and debugging                                                  |
-| 13    | Final testing and validation                                                          |
-| 14    | Documentation and project report preparation                                          |
+### Weeks 3–5: Sensor Prototyping and Testing
+- Set up the ESP32 and prototype the alcohol sensor for detecting alcohol levels.  
+- Implement helmet wearing detection using IR or pressure sensors and test accuracy.  
+- Integrate the crash detection sensor (e.g., MPU6050/ADXL345) and calibrate with real-time data.
+
+### Weeks 6–8: Location & App Communication
+- Interface the GPS module and validate accurate location tracking.  
+- Establish Bluetooth communication between the ESP32 and a custom mobile app.  
+- Begin mobile app development to receive GPS data and return the nearest hospital’s contact number.
+
+### Weeks 9–10: GSM Alerts and Ignition Control
+- Integrate the SIM800L GSM module to automatically call a hospital and send SMS alerts to emergency contacts.  
+- Implement logic to disable vehicle ignition if alcohol is detected, enhancing rider safety.
+
+### Weeks 11–12: Full System Integration and Debugging
+- Combine all components: sensors, communication modules, control logic, and app interface into a single cohesive system.  
+- Perform thorough testing, troubleshoot integration issues, and optimize performance.
+
+### Weeks 13–14: Final Testing and Documentation
+- Conduct real-world testing for system validation and reliability assessment.  
+- Prepare complete project documentation, user guides, and final technical report.
