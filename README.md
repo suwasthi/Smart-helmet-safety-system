@@ -20,7 +20,7 @@ This project enhances rider safety by integrating advanced sensors and communica
 6. The SIM800L GSM module automatically calls the hospital and sends an optional SMS alert to a family member.
 
 <img width="787" height="486" alt="image" src="https://github.com/user-attachments/assets/2115712a-f9a1-437a-bcfe-e8bb6dd86d0f" />
-## 🚨 Sensors and Components Used
+## Sensors and Components Used
 
 - **MPU6050 (Accelerometer + Gyroscope)**  
   Detects sudden movement or tilt — used for crash/accident detection.
