@@ -19,9 +19,7 @@ This project enhances rider safety by integrating advanced sensors and communica
 5. The mobile app determines the nearest hospital and sends the hospital’s contact number back to the ESP32.
 6. The SIM800L GSM module automatically calls the hospital and sends an optional SMS alert to a family member.
 
-
-<img width="802" height="506" alt="image" src="https://github.com/user-attachments/assets/8fac7483-02a1-4c63-a023-2d1287623f53" />
-
+<img width="787" height="486" alt="image" src="https://github.com/user-attachments/assets/2115712a-f9a1-437a-bcfe-e8bb6dd86d0f" />
 
 ## Project Timeline
 
