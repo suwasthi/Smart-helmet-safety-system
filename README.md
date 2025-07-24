@@ -20,6 +20,35 @@ This project enhances rider safety by integrating advanced sensors and communica
 6. The SIM800L GSM module automatically calls the hospital and sends an optional SMS alert to a family member.
 
 <img width="787" height="486" alt="image" src="https://github.com/user-attachments/assets/2115712a-f9a1-437a-bcfe-e8bb6dd86d0f" />
+## 🚨 Sensors and Components Used
+
+- **MPU6050 (Accelerometer + Gyroscope)**  
+  Detects sudden movement or tilt — used for crash/accident detection.
+
+- **NEO-6M GPS Module**  
+  Provides real-time location — sends coordinates to emergency contacts.
+
+- **MQ-3 Alcohol Sensor**  
+  Detects alcohol vapor from breath — prevents drunk driving by disabling ignition.
+
+- **Push Button**  
+  Manual override — used to cancel false crash alerts.
+
+- **MD0508 Reed Switch Module**  
+  Detects helmet wearing status using a magnetic field.
+
+- **Relay Module**  
+  Acts as a switch — cuts off bike ignition on alcohol detection.
+
+- **HC-05 Bluetooth Module**  
+  Enables Bluetooth communication — sends data to a mobile app.
+
+- **SIM800L GSM Module**  
+  Sends SMS/calls — alerts emergency contacts with location info.
+
+- **Buzzer & LED**  
+  Alert indicators — gives audio/visual feedback for warnings or status.
+
 
 ## Project Timeline
 
