@@ -58,9 +58,8 @@ This project enhances rider safety by integrating advanced sensors and communica
 - Research, select, and order all necessary hardware modules (ESP32, alcohol sensor, crash sensor, SIM800L GSM, GPS module, etc.).
 
 ### Weeks 3–5: Sensor Prototyping and Testing
-- Set up the ESP32 and prototype the alcohol sensor for detecting alcohol levels.  
-- Implement helmet wearing detection using IR or pressure sensors and test accuracy.  
-- Integrate the crash detection sensor (e.g., MPU6050/ADXL345) and calibrate with real-time data.
+- Set up the ESP32 and prototype the alcohol sensor for detecting alcohol levels. 
+- Integrate the crash detection sensor and calibrate with real-time data.
 
 ### Weeks 6–8: Location & App Communication
 - Interface the GPS module and validate accurate location tracking.  
