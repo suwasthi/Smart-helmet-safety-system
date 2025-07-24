@@ -41,9 +41,6 @@ This project enhances rider safety by integrating advanced sensors and communica
 - **Relay Module**  
   Acts as a switch — cuts off bike ignition on alcohol detection.
 
-- **HC-05 Bluetooth Module**  
-  Enables Bluetooth communication — sends data to a mobile app.
-
 - **SIM800L GSM Module**  
   Sends SMS/calls — alerts emergency contacts with location info.
 
