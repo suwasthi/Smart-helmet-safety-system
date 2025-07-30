@@ -54,13 +54,13 @@ This project enhances rider safety by integrating advanced sensors and communica
 - Requirement analysis and literature review to understand existing solutions and finalize system objectives.  
 - Research, select, and order all necessary hardware modules (ESP32, alcohol sensor, crash sensor, SIM800L GSM, GPS module, etc.).
 
-### Weeks 3–5: Sensor Prototyping and Testing
-- Set up the ESP32 and prototype the alcohol sensor for detecting alcohol levels. 
-- Integrate the crash detection sensor and calibrate with real-time data.
+### Weeks 3–4: Mobile App Development and Communication Setup
+- Design and prototype the mobile app interface for emergency alerts and hospital location access.
+- Set up Bluetooth communication between the ESP32 and the app.
 
-### Weeks 6–8: Location & App Communication
-- Interface the GPS module and validate accurate location tracking.  
-- Establish Bluetooth communication between the ESP32 and a custom mobile app.  
+### Weeks 5–8: Sensor Integration and Hardware Testing
+- Integrate and test the alcohol sensor with ESP32 for real-time detection.
+- Calibrate the crash detection sensor using test scenarios.
 
 ### Weeks 9–10: GSM Alerts and Ignition Control
 - Integrate the SIM800L GSM module to automatically call a hospital and send SMS alerts to emergency contacts.  
