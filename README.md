@@ -61,7 +61,6 @@ This project enhances rider safety by integrating advanced sensors and communica
 ### Weeks 6–8: Location & App Communication
 - Interface the GPS module and validate accurate location tracking.  
 - Establish Bluetooth communication between the ESP32 and a custom mobile app.  
-- Begin mobile app development to receive GPS data and return the nearest hospital’s contact number.
 
 ### Weeks 9–10: GSM Alerts and Ignition Control
 - Integrate the SIM800L GSM module to automatically call a hospital and send SMS alerts to emergency contacts.  
