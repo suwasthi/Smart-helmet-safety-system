@@ -1,6 +1,16 @@
-## Smart Helmet with Alcohol Detection and Emergency Alert System
+# accident_alert_app
 
-This project enhances rider safety by integrating sensors and communication modules into a smart helmet. It detects alcohol consumption, verifies helmet usage, and senses crashes. If alcohol is detected, the system disables vehicle ignition. In case of an accident, the helmet sends the rider’s GPS location to a mobile app, which locates the nearest hospital and triggers an automatic call via the GSM module, with an optional emergency SMS to family.
+A new Flutter project.
 
-<img width="786" height="481" alt="image" src="https://github.com/user-attachments/assets/da8dd578-e496-413a-bc48-f558e2552df1" />
+## Getting Started
 
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
