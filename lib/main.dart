@@ -108,7 +108,7 @@ Future<void> _findNearestHospitalPhone() async {
     _statusMessage = "Searching nearest hospital...";
   });
 
-  const apiKey = 'AIzaSyDj0SPu8hkab0sZ2Bj6d-rBcCGwytf6rkI'; // Google Maps API Key
+  const apiKey = 'Google Maps API Key'; // Google Maps API Key
   final nearbyUrl =
       'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$lat,$lon&radius=5000&type=hospital&key=$apiKey';
 
@@ -263,4 +263,5 @@ Future<void> _findNearestHospitalPhone() async {
       ),
     );
   }
+
 }
