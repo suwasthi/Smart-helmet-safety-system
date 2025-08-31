@@ -18,7 +18,7 @@
 //   bool isConnecting = true;
 //   bool isConnected = false;
 
-//   final String esp32Address = "EC:E3:34:46:83:4A"; // Replace with your ESP32 MAC
+//   final String esp32Address = "ESP32 MAC"; // Replace with your ESP32 MAC
 //   Timer? reconnectTimer;
 
 //   @override
@@ -330,4 +330,5 @@ class _AlcoholLevelPageState extends State<AlcoholLevelPage> {
     );
   }
 }
+
 
